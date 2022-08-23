@@ -1,0 +1,43 @@
+.img-thumb {
+    position: relative;
+}
+
+.img-title {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background: rgba(47, 48, 58, 0.8);
+}
+
+.label {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--background-color-page);
+}
+
+.section-work {
+    padding-top: 0;
+}
+
+.work-foto-list{
+    display: flex;
+}
+
+.work-foto-list img{
+    display: block;
+    max-width: 100%;
+}
+
+.work-foto-item{
+    width: calc((100% - 60px) / 3);
+}
+.work-foto-item:not(:last-child) {
+    margin-right: 30px;
+}

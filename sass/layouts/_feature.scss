@@ -1,0 +1,41 @@
+.feature-thumb{
+    display: flex;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: var(--studio-section-team-color);
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-icon {
+    width: 70px;
+    height: 70px;
+}
+
+
+.section-feature-list{
+    display: flex;
+}
+
+.section-feature-item{
+    width:calc((100% - 90px) / 4)
+}
+
+.section-feature-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.section-feature-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+.section-feature-text{
+    margin-top: 0;
+    margin-bottom: 0;
+}
