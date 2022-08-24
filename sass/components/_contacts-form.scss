@@ -1,4 +1,4 @@
-.use-telegram-btn{
+.telegram-btn{
     padding: 0;
     min-width: 200px;
     border-radius: 4px;
@@ -10,8 +10,8 @@
 }
 
 
-.use-telegram-btn:focus,
-.use-telegram-btn:hover{
+.telegram-btn:focus,
+.telegram-btn:hover{
     background-color: #188CE8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }

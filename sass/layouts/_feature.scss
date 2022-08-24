@@ -1,4 +1,4 @@
-.feature-thumb{
+.feature__thumb{
     display: flex;
     height: 120px;
     margin-bottom: 30px;
@@ -8,25 +8,25 @@
     align-items: center;
 }
 
-.features-icon {
+.feature__icon {
     width: 70px;
     height: 70px;
 }
 
 
-.section-feature-list{
+.feature__list{
     display: flex;
 }
 
-.section-feature-item{
+.feature__item{
     width:calc((100% - 90px) / 4)
 }
 
-.section-feature-item:not(:last-child) {
+.feature__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.section-feature-title {
+.feature__title {
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 14px;
@@ -35,7 +35,7 @@
     color: var(--title-text-color);
 }
 
-.section-feature-text{
+.feature__text{
     margin-top: 0;
     margin-bottom: 0;
 }

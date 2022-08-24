@@ -1,4 +1,4 @@
-.site-header{
+.header{
     border-bottom: 1px solid #ECECEC;
 }
 .header-container{
@@ -6,32 +6,32 @@
     align-items: center;
 }
 
-.header-site-nav,
-.header-site-contact{
+.navigation__list,
+.contacts{
     display: flex;
 }
 
-.header-site-nav{
+.navigation__list{
     margin-left: 93px;
 }
 
-.header-site-contact{
+.contacts{
     margin-left: auto;
 }
 
-.header-nav-item:not(:last-child) {
+.navigation__item:not(:last-child) {
     margin-right: 50px;
 }
 
-.header-contact-item:not(:last-child) {
+.contacts__item:not(:last-child) {
     margin-right: 50px;
 }
-.site-contact-link::before {
+.contacts__link::before {
     content: " ";
     background-size: contain;
 }
 
-.icon {
+.contacts__icon {
     margin-right: 10px;
     fill: var(--primary-text-color);
     align-self: center;
@@ -39,8 +39,8 @@
 }
 
 
-.site-nav-link,
-.site-contact-link {
+.navigation__link,
+.contacts__link {
     display: inline-flex;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -52,27 +52,27 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-contact-link {
+.contacts__link {
     color: var(--primary-text-color);
 }
 
-.header-site-contact .site-contact-link:focus .icon,
-.header-site-contact .site-contact-link:hover .icon{
+.contacts .contacts__link:focus .contacts__icon,
+.contacts .contacts__link:hover .contacts__icon{
     fill: var(--accent-color-page);
 }
 
-.site-nav-link:hover,
-.site-contact-link:hover,
-.site-nav-link:focus,
-.site-contact-link:focus,
-.footer-site-map:hover,
-.footer-site-map:focus,
-.footer-site-link:hover,
-.footer-site-link:focus{
+.navigation__link:hover,
+.contacts__link:hover,
+.navigation__link:focus,
+.contacts__link:focus,
+.address__map:hover,
+.address__map:focus,
+.address__link:hover,
+.address__link:focus{
     color: var(--accent-color-page);
 }
 
-.header-site-nav .site-nav-link{
+.navigation__list .navigation__link{
     position: relative;
 }
 
@@ -87,6 +87,6 @@
     background-color: var(--accent-color-page);
 }
 
-.site-nav-link.current{
+.navigation__link.current{
     color: var(--accent-color-page);
 }

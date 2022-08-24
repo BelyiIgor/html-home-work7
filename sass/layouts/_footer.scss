@@ -1,25 +1,25 @@
-.footer .logo-accent-color {
+.footer .logo {
     margin-bottom: 20px;
 }
 
-.footer-site-contact {
+.addres__list {
     line-height: 1.71;
 }
 
-.footer-site {
+.address {
     font-style: inherit;
 }
 
-.footer-site-contact li:not(:last-child) {
+.addres__list li:not(:last-child) {
     margin-bottom: 9px;
 }
 
-.footer-site-map {
+.address__map {
     color: var(--hero-text-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-site-link {
+.address__link {
     margin-top: 9px;
     color: var(--contact-footer);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -29,7 +29,7 @@
     background: var(--main-hero-backgroud-color);
 }
 
-.footer-address {
+.container-address {
     padding-top: 60px;
     padding-bottom: 60px;
     margin-right: 70px;
@@ -51,7 +51,7 @@
     color: var(--background-color-page);
 }
 
-.footer-blocks {
+.footer-container {
   display: flex;
   align-items: baseline;
   justify-content:space-between;
