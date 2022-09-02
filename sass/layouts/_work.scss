@@ -26,18 +26,18 @@
     padding-top: 0;
 }
 
-.work__list{
+.work-list{
     display: flex;
 }
 
-.work__list img{
+.work-list img{
     display: block;
     max-width: 100%;
 }
 
-.work__item{
+.work-item{
     width: calc((100% - 60px) / 3);
 }
-.work__item:not(:last-child) {
+.work-item:not(:last-child) {
     margin-right: 30px;
 }

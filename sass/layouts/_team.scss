@@ -54,7 +54,7 @@
     color: var(--primary-text-color);
 }
 
-.groups__social {
+.groups-social {
     padding: 0;
     display: flex;
     margin-top: 16px;
@@ -63,7 +63,7 @@
     list-style: none;
 }
 
-.groups__item:not(:last-child) {
+.groups-item:not(:last-child) {
     margin-right: 10px;
 }
 
@@ -93,7 +93,7 @@
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.groups__social .groups__link:focus .groups__icon,
-.groups__social .groups__link:hover .groups__icon{
+.groups-social .groups__link:focus .groups__icon,
+.groups-social .groups__link:hover .groups__icon{
     fill: var(--background-color-page);
 }
